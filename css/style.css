@@ -1,0 +1,20 @@
+label.form_fields {
+  font-family: monospace;
+  font-size: 12px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+}
+
+#table {
+  height: 400px;
+  width: 400px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  /*border-collapse: collapse;*/
+}
+
+tr:nth-child(odd) td:nth-child(even), tr:nth-child(even) td:nth-child(odd) {
+  background-color: black;
+}

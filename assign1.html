@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Basic Calculator </title>
+    <script type="text/javascript" src="js/assign1.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css">
+  </head>
+  <body>
+    <div class="center-block">
+        <caption><center><h2>Calculator</h2></center></caption>
+        <div class="col-sm-12">
+          <p>      
+            <div class="col-sm-4">
+              <input type="button" class="btn btn-warning col-sm-12" value="C" onclick='set_or_clear("")'>
+            </div>
+            <div class="col-sm-8">
+              <input type="text" class="form-control col-sm-12" id="display">
+            </div>
+          </p>
+          <br><br><br>
+        </div>
+          
+        <!-- <div class="col-sm-12"> -->
+          <div class="keys col-sm-12">
+              <p>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="7" onclick='build_expression("7")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="8" onclick='build_expression("8")'>
+                </div>
+                <div class="col-sm-3">  
+                  <input type="button" class="btn btn-default col-sm-12" value="9" onclick='build_expression("9")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-primary col-sm-12" value="*" onclick='build_expression("*")'>
+                </div>
+                <br><br><br>
+              </p>
+              <p>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="4" onclick='build_expression("4")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="5" onclick='build_expression("5")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="6" onclick='build_expression("6")'>
+                </div>
+                <div class="col-sm-3">  
+                  <input type="button" class="btn btn-primary col-sm-12" value="-" onclick='build_expression("-")'>
+                </div>
+                <br><br><br>
+              </p>
+              <p>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="1" onclick='build_expression("1")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="2" onclick='build_expression("2")'>
+                </div>
+                <div class="col-sm-3">  
+                  <input type="button" class="btn btn-default col-sm-12" value="3" onclick='build_expression("3")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-primary col-sm-12" value="+" onclick='build_expression("+")'>
+                </div>
+                <br><br><br>
+              </p>
+              <p>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="0" onclick='build_expression("0")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-default col-sm-12" value="." onclick='build_expression(".")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-primary col-sm-12" value="/" onclick='build_expression("/")'>
+                </div>
+                <div class="col-sm-3">
+                  <input type="button" class="btn btn-success col-sm-12" value="=" onclick='evaluate_expression()'>
+                </div>
+              </p>
+          </div>
+        <!-- </div> -->
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+#subscription_legend {
+	text-align: right; 
+	border: 2px solid green; 
+	width: 170px;
+}
+
+#subscription_fieldset {
+	border: 1px solid green; 
+	padding: 30px;
+}
