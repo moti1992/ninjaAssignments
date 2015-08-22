@@ -1,0 +1,9 @@
+.parent {
+	border: 1px solid black;
+	background-color: lightgreen; 
+}
+
+.child {
+	border: 1px solid black;
+	background-color: grey; 
+}
