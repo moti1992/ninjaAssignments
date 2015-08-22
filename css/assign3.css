@@ -1,0 +1,13 @@
+td {
+	border: 1px solid blue;
+	background-color: lightblue;
+}
+
+table {
+	table-layout: fixed;
+}
+
+td.fixed {
+	width: 200px;
+	overflow: hidden;
+}
