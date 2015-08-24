@@ -1,0 +1,34 @@
+.five, .four, .three, .two, .one{
+	background: url(sprites.png) no-repeat;
+}
+
+.five{
+	background-position: -17px -185px ;
+	width: 259px;
+	height: 194px;
+}
+
+.four{
+	background-position: -523px -153px ;
+	width: 358px;
+	height: 415px;
+}
+
+.three{
+	background-position: -57px -409px ;
+	width: 212px;
+	height: 160px;
+}
+
+.two{
+	background-position: -295px -12px ;
+	width: 204px;
+	height: 204px;
+}
+
+.one{
+	background-position: -30px -9px ;
+	width: 232px;
+	height: 160px;
+}
+
